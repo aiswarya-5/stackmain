@@ -1,0 +1,407 @@
+*{
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;	
+}
+.header{                                                             /*  header   */
+	display: flex;
+	border-top: 3px solid #f48225;
+	border-bottom: 2px solid #e6e6e6;
+    	position: relative;
+    	align-items: center;
+	background-color:#f8f9f9;
+	height: 47px;	
+	box-shadow:0px 0px 5px #f8f9f9;
+		
+}
+.leftpart{
+	display:flex;
+}
+.leftpart img{	
+	height: 45px;
+	width: 158px;
+	background-color:f8f9f9;	
+	margin-bottom: 2px;
+	cursor: pointer;
+}
+.leftpart img:hover{
+	background-color:red;
+}
+.leftpart .product{
+	margin: 13.5px 0px 0px 20px;
+	font-size:13px;
+	color: #7d8388;
+	font-family: segoe ui;
+	cursor: pointer;
+}
+.li .product:hover{
+	background-color:#dbe6ff;
+	border-radius:50px;
+	height:40px;
+	width:55px;
+	
+}
+.middlepart{
+	border: 1px solid #c9cdd1;
+	width: 768px;
+	height: 31px;    
+	margin-left:20px;
+	background-color:#ffff;	
+	border-radius:3px;
+}
+.middlepart input{	
+	border: none;
+	width: 736px;
+	padding-top: 6px;
+        font-size: 13;  
+	margin-left:32px;
+	color: #797380;
+	font-family: segoe ui;
+}
+.middlepart input:focus{
+	outline:none;
+}
+.middlepart img{
+   	width: 26px;
+   	opacity: .2;
+	position: absolute;
+	top: 10.5px;
+	padding-left: 4px;
+	color:#ced2d6;
+}
+.rightpart{
+	display:flex;
+}
+.rightpart button{
+	display:flex;
+	margin-left:8px;
+    	height: 47px;
+    	width: 81.5px;
+    	padding: 11.5px 0 0 12px;
+	background-color:#f8f9f9;
+	border: none;	
+	cursor: pointer;
+}
+.rightpart button .data{
+	padding: 3px 0 0 4.5px;
+	font-size:12px;
+	font-weight:bold;	
+	font-family: segoe ui;
+}	
+.rightpart button .circle{
+   	width:6px;	
+	height:6px;	
+	border-radius:50px;
+	background-color:#d1a684;
+	margin:9px 1px 1px 8px;
+}
+.rightpart button .cdata{
+	padding: 5px 0 0 1.7px;
+	font-size:12px;	
+	color:#c0a38a;
+	font-weight:450;	
+}	
+.last1 button{
+	height: 48px;
+	width: 43px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+}
+.last1 button img{
+	margin: 0px 2px 1px 0px;
+	width:41px;
+	height:45px;	
+	padding-left:1px;
+	padding-bottom: 1px;
+}
+.last2 button{
+	height: 48px;
+	width: 35px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;	
+}
+.last2 button img{
+	margin-right:7px;
+	width:38.5px;	
+	padding-bottom:1px;
+}
+.last3 button{
+	height: 48px;
+	width: 39px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+}
+.last3 button img{
+	margin: 0px 2px 1px 0px;
+	width:37px;
+	height:43px;
+	padding-left:1px;	
+	
+}
+.last4 button{
+	height: 48px;
+	width: 34px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+}
+.last4 button img{
+	margin: 0px 2px 1px 0px;
+	width:37px;
+	height:43px;
+	padding-top:2px;	
+	
+}
+.sidebar{			                                          /*  sidebar   */
+	border-right:1px solid #e0e2e5;
+	width:163.5px;
+	height: 540px;
+	padding-top: 21px;	
+	float: left;
+}
+.sidebar .home{
+	font-family: segoe ui;
+	padding: 8px 1px 1px 8px;
+	margin-bottom: 11px;
+        font-size: 13px;
+	cursor:pointer;	
+	color: #7d8288;
+}
+.sidebar .public{
+	font-family: segoe ui;
+	font-size: 11px;
+	padding: 12px 0px 0px 8px;
+	color: #8a9198;
+}
+.sidebar .options .one{
+	margin:2px 0px;
+}
+.sidebar .options .material-icons{
+	color:#838ca5;
+	padding: 10px 0px 0px 7.3px;
+	font-size:19px;
+}
+.sidebar .options a{
+	font-size:13px;
+	text-decoration:none;
+	font-family: segoe ui;
+	line-height: 16px;
+	position: relative;		
+}
+.sidebar .options .one a{
+	bottom:4.5px;
+	right:.7px;
+	color: #696f95;
+}
+.sidebar .options .two{
+	height:35.5px;
+}
+.sidebar .options .two a{
+	top: 8px;
+	right: 1px;
+	padding: 0px 0px 9px 31px;
+	color: #696f95;	
+}
+.sidebar .options .three{
+	height:34px;
+	width:161px;
+	border-right: 3px solid #f48225;
+}
+.sidebar .options .three a{
+	top: 7px;
+	right: 1px;
+	padding: 0px 0px 9px 31px;
+	color: #000000;	
+	font-weight: bold;
+}
+.sidebar .options .three {
+	background-color:#f1f1f3;
+}
+.sidebar .options .four{
+	height:33px;
+}
+.sidebar .options .four a{
+	top: 7px;
+	right: 1px;
+	padding: 0px 0px 9px 31px;
+	color: #696f95;	
+}
+.sidebar .option a{
+	text-decoration:none;	
+	color:#696f95;	
+	font-family: segoe ui;
+	position: relative;	
+}
+.sidebar .option .collect a{
+	font-size:11px;
+	padding-left: 8px;
+	padding-right: 61px;
+	bottom: 3.5px;	
+}
+.sidebar .option .material-icons{
+	font-size:14px;
+	color:#6a737c;
+}
+.sidebar .option .collect .material-icons{
+	padding:17.5px 0px 0px 4px;
+}
+.sidebar .expo img{
+	height: 22px;
+	width: 24px;
+        padding-top: 2px;
+        padding-left: 4.5px;
+}
+.sidebar .expo a{
+	font-size: 13px;
+        bottom: 7px;
+        right: 3px;
+}
+.sidebar .option .team a{
+	font-size:11px;
+	padding-left: 8px;
+	padding-right: 61px;
+	bottom: 4.5px;	
+}
+.sidebar .option .team .material-icons{
+	padding:29px 0px 0px 30px;
+}
+.sidebar .free img{
+	height: 22px;
+	width: 24px;
+        padding-top: 7px;
+        padding-left: 4.5px;
+}
+.sidebar .free a{
+	font-size: 13px;
+        bottom: 8px;
+        right: 3px;
+}
+
+
+									          /*  mainbody   */
+.mainbody{
+	
+}
+.layer1-profile{
+	
+}
+.p-image .dp{
+	width:128px;
+	height:128px;
+	border: 1px solid #f3f3f3;
+	margin: 21px 0px 0px 24px;
+	border-radius:6px;
+	box-shadow: 0px 0px 5px #efefef;
+}
+.p-image{
+	display: inline;
+}
+.p-right{
+	display: inline-block;
+	position:absolute;
+	margin-left:14.5px;
+}
+.mainbody ul{
+	 list-style-type: none;
+}
+.p-right .name{
+	font-size:34px;
+	font-family: segoe ui;
+	margin-top:31px;
+}
+.p-right .day{
+	font-size:13px;
+	margin-top: 8px;
+}
+.p-right .day .material-icons{
+	font-size:18px;
+	color:#919991;
+	padding-top:1.8px;
+}
+.mainbody .day .data1{
+	color:#828597;
+	vertical-align: top;
+    	font-family: segoe ui;
+	margin-right:4px;
+}
+.mainbody .p-right button{
+	margin-left: 688px;
+    	position: absolute;  
+    	top: 14px;
+	width:76px;
+    	padding: 7px 4px 6.5px 10px;
+    	font-size: 12px;
+    	color: #818f99;
+    	background: none;
+    	outline: none;
+    	border: 1px solid  #818f99;
+    	font-family: segoe ui;
+	border-radius:3px;
+}
+.mainbody .p-right .name .material-icons{
+	vertical-align: middle;
+	font-size:20px;
+}
+
+
+
+
+
+.mainbody .data .material-icons{
+	font-size:21px;
+	color:#919991;
+}
+.mainbody .data{
+	font-family: segoe ui;
+	padding-top: 3px;
+}
+.mainbody .data .twiter{
+	height: 18px;
+	width: 19px;
+}
+.mainbody .data .git{
+	height: 20px;
+	width: 26px;
+}
+.mainbody .data .pin{
+	height: 19px;
+	width: 22px;
+}
+.mainbody .data .data2{
+	color:#828597;
+	font-size:13px;
+	font-family: segoe ui;
+	vertical-align: top;
+}
+.pa-button .profilebut{
+    	margin: 17px 5px 1px 25px;
+   	padding: 4px 10.5px 7px 11.5px;
+   	border-radius: 50px;
+	font-family: segoe ui;
+	background-color: #f48225;
+	border: none;
+    	color: #ffff;
+}
+.pa-button .activitybut{
+    	margin: 17px 5px 1px 0px;
+   	padding: 4px 10.5px 7px 11.5px;
+   	border-radius: 50px;
+	font-family: segoe ui;
+	border: none; 
+	color:#62768e;
+	background-color:#ffff;  	
+}
+.pa-button .activitybut:hover{
+	background-color:#f1f2f3;
+}
+.statusdata table {
+	border: 1px solid black;
+	border-spacing: 20px;
+}
