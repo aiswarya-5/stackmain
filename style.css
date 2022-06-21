@@ -1,5 +1,5 @@
 *{
-	font-family: arial, sans-serif;
+	font-family: segoe ui;
 	margin: 0;
 	padding: 0;	
 }
@@ -99,7 +99,8 @@
 	padding: 5px 0 0 1.7px;
 	font-size:12px;	
 	color:#c0a38a;
-	font-weight:450;	
+	font-weight:450;
+	font-family: arial, sans-serif;	
 }	
 .last1 button{
 	height: 48px;
@@ -204,7 +205,7 @@
 	height:35.5px;
 }
 .sidebar .options .two a{
-	top: 8px;
+	top: 5.5px;
 	right: 1px;
 	padding: 0px 0px 9px 31px;
 	color: #696f95;	
@@ -215,7 +216,7 @@
 	border-right: 3px solid #f48225;
 }
 .sidebar .options .three a{
-	top: 7px;
+	top: 4px;
 	right: 1px;
 	padding: 0px 0px 9px 31px;
 	color: #000000;	
@@ -228,7 +229,7 @@
 	height:33px;
 }
 .sidebar .options .four a{
-	top: 7px;
+	top: 4px;
 	right: 1px;
 	padding: 0px 0px 9px 31px;
 	color: #696f95;	
@@ -287,11 +288,9 @@
 
 									          /*  mainbody   */
 .mainbody{
-	
+	display: flex;	
 }
-.layer1-profile{
-	
-}
+
 .p-image .dp{
 	width:128px;
 	height:128px;
@@ -301,19 +300,18 @@
 	box-shadow: 0px 0px 5px #efefef;
 }
 .p-image{
-	display: inline;
+	display: inline-block;
 }
 .p-right{
 	display: inline-block;
-	position:absolute;
-	margin-left:14.5px;
+    	vertical-align: top;
+    	padding: 0px 0px 0px 10px;
 }
 .mainbody ul{
 	 list-style-type: none;
 }
 .p-right .name{
 	font-size:34px;
-	font-family: segoe ui;
 	margin-top:31px;
 }
 .p-right .day{
@@ -325,16 +323,16 @@
 	color:#919991;
 	padding-top:1.8px;
 }
-.mainbody .day .data1{
+.day .data1{
 	color:#828597;
 	vertical-align: top;
     	font-family: segoe ui;
 	margin-right:4px;
 }
-.mainbody .p-right button{
+.p-right button{
 	margin-left: 688px;
     	position: absolute;  
-    	top: 14px;
+    	top: 66px;
 	width:76px;
     	padding: 7px 4px 6.5px 10px;
     	font-size: 12px;
@@ -380,8 +378,13 @@
 	font-family: segoe ui;
 	vertical-align: top;
 }
+.pa-button{
+	display:flex;
+	margin-top: 13px;
+}
 .pa-button .profilebut{
-    	margin: 17px 5px 1px 25px;
+    	margin-left: 25px;
+    	margin-bottom: 16px;
    	padding: 4px 10.5px 7px 11.5px;
    	border-radius: 50px;
 	font-family: segoe ui;
@@ -390,7 +393,8 @@
     	color: #ffff;
 }
 .pa-button .activitybut{
-    	margin: 17px 5px 1px 0px;
+    	margin-left: 5px;
+    	margin-bottom: 16px;
    	padding: 4px 10.5px 7px 11.5px;
    	border-radius: 50px;
 	font-family: segoe ui;
@@ -401,7 +405,120 @@
 .pa-button .activitybut:hover{
 	background-color:#f1f2f3;
 }
+
+
+
+
+                                           /*status box layer2*/
+
+.layer2{
+	display: flex;
+}
+
+
+.status{
+	margin-left: 24.5px;
+}
+.title{
+	font-size: 21;
+}
 .statusdata table {
-	border: 1px solid black;
-	border-spacing: 20px;
+	border: 1px solid #e6e7e9;    	
+    	margin: 10px 0px 0px 1px;
+    	padding: 7px 10px 0px 9px;
+	border-radius: 6px;
+}
+.statusdata table img{
+	width:24.5px;	
+    	padding-top: 14px;
+}
+.statusdata table{
+	font-family: segoe ui;	
+}
+#no1,#no2,#no3,#no4{
+	font-family: segoe ui;
+	font-size:17px;
+}
+#reput,#reach, #ans, #ques, #over{
+	font-family: segoe ui;
+	font-size:13px;
+	color:#8985a1;
+}
+#no2, #reach, #no4, #ques{
+	padding-left: 44px;
+	padding-right: 46px;
+}
+#no3, #no4{
+	padding-top: 11.5px;
+}
+#over{
+	padding-bottom: 6px;
+}
+
+
+.collective{
+	margin-left: 24.5px;
+    	margin-top: 22px;
+}
+.collective table{
+	border: 1px solid #e6e7e9;
+	margin: 9px 0 0 1px;
+	border-radius: 6px;
+}
+#cloud img{
+	width: 54px;
+    	margin: 10.5px 0 0 6px;
+}
+#google{
+	font-size: 15px;
+    	padding: 4px 81px 0px 3px;
+	color: #58483d;
+}
+#google p{
+	font-size: 12px;
+	color: #7c7073;
+}
+#google img{
+	width: 5px;
+    	margin-right: 3px;
+}
+.sublayer2{
+	    display: inline-flex;
+}
+.sublayer2 .about{
+	    margin-left: 23.7px;
+}
+.abouttitle{
+	font-size: 21px;
+    	margin-bottom: 9.5px;
+}
+.line1, .line2, .line3, .line4, .site{
+	font-size: 15px;
+    	color: #494151;
+}
+.about a{
+	color: #408cce;
+}
+.line2{
+    	padding-top: 2px;
+}
+.line3{
+	padding-top: 3px;
+}
+.site{
+	padding-top: 19px;
+}
+.about ul{
+	color: #3b4045;
+    	font-size: 15px;
+    	margin: 19px 0 0px 30px;
+}
+#blog, #article{
+	padding-top: 10.5px;
+}
+#twit{
+	padding-top: 11.5px;
+}
+.line4{
+	padding-top: 18.5px;
 }

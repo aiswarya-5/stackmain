@@ -7,6 +7,7 @@
 	</head>
 	<body>
 		<div class="container">
+			
 			<div class="header">
 				<div class="leftpart">
 					<img src="images/stack.jpg">
@@ -45,7 +46,8 @@
 					</button>		
 				</div>
 			</div>   <!--header tag close-->
-
+	
+			
 			<div class="sidebar">
 				<p class="home">Home</p>
 				<p class="public">PUBLIC</p>
@@ -89,15 +91,19 @@
 					</ul>
 				</div>
 			</div> <!-- sidebar tag close -->
-
-
+		
+		
+	
+     <div class="main-class">
 
 			<div class="mainbody">
 				<div class="layer1-profile">
 					<div class="p-image">
 						<img src="images/john.jpeg" class="dp"> 
 					</div>	
+					
 					<div class="p-right">
+					 
 						<ul>
           						<li class="name">
           							Jon Skeet   <button class="profile">Profiles<span class="material-icons">arrow_drop_down</span></button>
@@ -117,50 +123,60 @@
 								<span class="data2"> Reading, United Kingdom </span>
           						</li>
 						
-						</ul>
-					</div>  <!-- p-right-->									
+						</ul>						 
+					</div>  <!-- p-right-->	
 				</div><!-- layer1-profile-->
-				<div class="pa-button">
+			</div>  <!-- mainbody tag close -->
+			<div class="pa-button">
 					<button class="profilebut">Profile</button><button class="activitybut">Activity</button>
-				</div>
-
-				<div class="layer2">
-					<div class="sublayer1">
+			</div>
+			<div class="layer2">
+				<div class="sublayer1">
 						<div class="status">
 							<span class="title">Stats</span>
 							<div class="statusdata">
 								<table>
-									<tr><td>1,338,929</td><td>362.1m</td></tr>
-									<tr><td>reputation</td><td>reached</td></tr>
-									<tr><td>34,451</td><td>51</td></tr>
-									<tr><td>answers</td><td>questions</td></tr>
-									<tr><td colspan=2><img src="images/btrophy.jpg"> <p>top <b>0.01%</b>overall</p></td> <td>
+									<tr><td id="no1">1,338,929</td><td id="no2">362.1m</td></tr>
+									<tr id="detailstatus"><td id="reput">reputation</td><td id="reach">reached</td></tr>
+									<tr><td id="no3">35,451</td><td id="no4">51</th></tr>
+									<tr><td id="ans">answers</td><td id="ques">questions</td></tr>
+									<tr><td colspan=2><img src="images/btrophy.jpg"> <p id="over">top <b>0.01%</b>overall</p></td> </tr>
 								</table>
 							</div> <!--statusdata-->
 					 	</div> <!--status-->
+					
 						<div class="collective">
+							<span class="title">Collectives</span>
+							<table>
+									<tr><td rowspan=2 id="cloud"><img src="images/cloud.jpg"></td>
+									<td id="google">Google Cloud<p id="year">2021 <img src="images/dot.png">Employee</p></td></tr>
+									</table>                                      
 					 	</div> <!--collective-->
-					</div> <!--sublayer1-->
-					
+				</div> <!--sublayer1-->
 
-
-
-
-
-
-
-
-
-					<div class="sublayer2">
+				<div class="sublayer2">
 						<div class="about">
+							<p class="abouttitle">About</p>
+							<p class="line1">Author of <a href="#">C# in Depth</a>.</p>
+							<p class="line2">Currently a software engineer at Google, London.</p>
+							<p class="line3">Usually a Microsoft MVP (C#, 2003-2010, 2011-)</p> 
+							<p class="site">Sites:</p>
+							<ul>
+								<li><a href="#">C# in Depth</a></li>
+								<li id="blog"><a href="#">Coding blog</a></li>
+								<li  id="article"><a href="#">C# articles</a></li>
+								<li  id="twit"><a href="#">Twitter updates (@jonskeet)</a></li>
+							</ul>
+							<p class="line4">Email: skeet@pobox.com (but please read <a href="#">my blog post on Stack Overflow-related emails </a> first)</p>
 					 	</div> <!--about-->
-					</div> <!--sublayer2-->
-					
-				</div>   <!-- layer2-->
-
-
-
-			</div>  <!-- mainbody tag close -->
+				</div> <!--sublayer2-->
+			</div> <!-- layer2-->
+		
+			<div class="layer3">
+				
+			</div> <!--layer3-->
+				
+  </div> <!-- mainclass -->
 		</div>  <!-- container tag close -->
 
 	</body>
