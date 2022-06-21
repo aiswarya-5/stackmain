@@ -12,6 +12,9 @@
 	background-color:#f8f9f9;
 	height: 47px;	
 	box-shadow:0px 0px 5px #f8f9f9;
+	position: fixed;
+    	z-index: 10;
+	width: 100%;
 		
 }
 .leftpart{
@@ -164,8 +167,8 @@
 	border-right:1px solid #e0e2e5;
 	width:163.5px;
 	height: 540px;
-	padding-top: 21px;	
-	float: left;
+	padding-top: 73px;	
+	position: fixed;
 }
 .sidebar .home{
 	font-family: segoe ui;
@@ -305,7 +308,7 @@
 .p-right{
 	display: inline-block;
     	vertical-align: top;
-    	padding: 0px 0px 0px 10px;
+    	padding: 0px 0px 0px 10.5px;
 }
 .mainbody ul{
 	 list-style-type: none;
@@ -350,8 +353,10 @@
 
 
 
-
-
+.main-class{
+	margin-left: 154px;
+	padding: 52px 10px;
+}	
 .mainbody .data .material-icons{
 	font-size:21px;
 	color:#919991;
@@ -385,7 +390,7 @@
 .pa-button .profilebut{
     	margin-left: 25px;
     	margin-bottom: 16px;
-   	padding: 4px 10.5px 7px 11.5px;
+   	padding: 4px 11px 7px 11.5px;
    	border-radius: 50px;
 	font-family: segoe ui;
 	background-color: #f48225;
@@ -462,8 +467,9 @@
 }
 .collective table{
 	border: 1px solid #e6e7e9;
-	margin: 9px 0 0 1px;
+	margin: 9.5px 0 0 1px;
 	border-radius: 6px;
+	padding-bottom: 7px;
 }
 #cloud img{
 	width: 54px;
@@ -486,7 +492,7 @@
 	    display: inline-flex;
 }
 .sublayer2 .about{
-	    margin-left: 23.7px;
+	    margin-left: 24.2px;
 }
 .abouttitle{
 	font-size: 21px;
@@ -521,4 +527,56 @@
 }
 .line4{
 	padding-top: 18.5px;
+}
+
+
+.layer3{
+	display: flex;
+}
+.community{
+	margin-left: 25px;
+    	margin-top: 22px;
+}
+.communitytitle{
+	font-size:21px;
+}
+.view img{
+	width:19px;
+	vertical-align: middle;
+}
+.view{
+	font-size: 13px;
+    	color: #87939d;
+    	padding-left: 57px;
+}
+.communitybox table{
+	border: 1px solid #e6e7e9;
+    	margin-top: 9px;
+    	font-size: 13px;
+	padding: 13px 0 12px 5px;
+}
+.communitybox img{
+	width: 25px;
+	padding-bottom: 2px;
+}
+#stackoverflow2, #meta2, #super2, #server2, #sw2{
+	padding-left: 36px;
+    	padding-right: 18px;
+	color:#7a8b94;
+}
+#stackoverflow1, #meta1, #super1, #server1, #sw1{
+	color:#4886ce;
+}
+.badges table li{
+	list-style-position: inside;
+}
+.badge{
+	margin-left: 25px;
+    	margin-top: 22px;
+}
+.badgetitle{
+	    font-size: 21px;
+}
+.badges img{
+	width: 64px;
 }
