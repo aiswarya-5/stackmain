@@ -27,28 +27,36 @@
 	margin-bottom: 2px;
 	cursor: pointer;
 }
-.leftpart img:hover{
-	background-color:red;
-}
-.leftpart .product{
-	margin: 13.5px 0px 0px 20px;
+
+.leftpart .product{	
 	font-size:13px;
 	color: #7d8388;
-	font-family: segoe ui;
+	font-family: segoe ui;	
+	margin: 9.5px 0px 0px 8px;	
+    	border-radius: 50px;
+   	height: 24px;
+    	width: 63px;
+    	padding-top: 4px;
+    	padding-left: 12px;
+  
+}
+.leftpart .product:hover{
 	cursor: pointer;
+   	margin: 9.5px 0px 0px 8px;
+    	background-color: #cfd6d6;
+    	border-radius: 50px;
+    	height: 24px;
+    	width: 63px;
+    	padding-top: 4px;
+    	padding-left: 12px;
+	color:#000000;
 }
-.li .product:hover{
-	background-color:#dbe6ff;
-	border-radius:50px;
-	height:40px;
-	width:55px;
-	
-}
+
 .middlepart{
 	border: 1px solid #c9cdd1;
 	width: 768px;
 	height: 31px;    
-	margin-left:20px;
+	margin-left:7.5px;
 	background-color:#ffff;	
 	border-radius:3px;
 }
@@ -74,6 +82,9 @@
 }
 .rightpart{
 	display:flex;
+}
+.rightpart button:hover{
+	background-color:#cfd6d6;
 }
 .rightpart button{
 	display:flex;
@@ -178,6 +189,9 @@
 	cursor:pointer;	
 	color: #7d8288;
 }
+.home:hover{
+	color:#404244;
+}
 .sidebar .public{
 	font-family: segoe ui;
 	font-size: 11px;
@@ -198,6 +212,9 @@
 	font-family: segoe ui;
 	line-height: 16px;
 	position: relative;		
+}
+.sidebar .options .material-icons:hover,.sidebar .options .one a:hover,.sidebar .options .two a:hover,.sidebar .options .four a:hover{
+	color:#404244;
 }
 .sidebar .options .one a{
 	bottom:4.5px;
@@ -261,11 +278,15 @@
 	width: 24px;
         padding-top: 2px;
         padding-left: 4.5px;
+	cursor: pointer;
 }
 .sidebar .expo a{
 	font-size: 13px;
         bottom: 7px;
         right: 3px;
+}
+.expo a:hover,.free a:hover{
+	color:#404244;
 }
 .sidebar .option .team a{
 	font-size:11px;
@@ -281,6 +302,7 @@
 	width: 24px;
         padding-top: 7px;
         padding-left: 4.5px;
+	cursor: pointer;
 }
 .sidebar .free a{
 	font-size: 13px;
@@ -326,6 +348,9 @@
 	color:#919991;
 	padding-top:1.8px;
 }
+.p-right .day .material-icons:hover,.mainbody .data .material-icons:hover{
+	cursor:default;
+}
 .day .data1{
 	color:#828597;
 	vertical-align: top;
@@ -346,11 +371,15 @@
     	font-family: segoe ui;
 	border-radius:3px;
 }
+
 .mainbody .p-right .name .material-icons{
 	vertical-align: middle;
 	font-size:20px;
 }
-
+.p-right button:hover{
+	background-color:#e3e6e8;
+	cursor:pointer;
+}
 
 
 .main-class{
@@ -377,7 +406,10 @@
 	height: 19px;
 	width: 22px;
 }
-.mainbody .data .data2{
+.pin:hover,.git:hover,.twiter:hover,.data .data2:hover{
+	cursor:pointer;
+}
+.data .data3,.data .data2{
 	color:#828597;
 	font-size:13px;
 	font-family: segoe ui;
@@ -396,6 +428,9 @@
 	background-color: #f48225;
 	border: none;
     	color: #ffff;
+}
+.pa-button .profilebut:hover{
+	background-color: #e64a0c;
 }
 .pa-button .activitybut{
     	margin-left: 5px;
@@ -459,7 +494,9 @@
 #over{
 	padding-bottom: 6px;
 }
-
+#over:hover{
+	cursor:pointer;
+}
 
 .collective{
 	margin-left: 24.5px;
@@ -479,6 +516,9 @@
 	font-size: 15px;
     	padding: 4px 81px 0px 3px;
 	color: #58483d;
+}
+#cloud:hover,#google:hover{
+	cursor:pointer;
 }
 #google p{
 	font-size: 12px;
@@ -549,6 +589,10 @@
     	color: #87939d;
     	padding-left: 57px;
 }
+.view:hover{
+	cursor:pointer;
+	color:#6c757d;
+}
 .communitybox table{
 	border: 1px solid #e6e7e9;
     	margin-top: 9px;
@@ -568,7 +612,9 @@
 #stackoverflow1, #meta1, #super1, #server1, #sw1{
 	color:#4886ce;
 }
-
+#stackoverflow1:hover, #meta1:hover, #super1:hover, #server1:hover, #sw1:hover{
+	color:#84aede;
+}
 .badge .badgedatas{
 	border: 1px solid #e6e7e9;
     	margin-top: 9px;
@@ -603,6 +649,10 @@
 	border-radius:5px;
 	padding-left: 7px;
 }
+#b1:hover,#b3:hover,#b2:hover{
+	cursor:pointer;
+	background-color:#e3e5e7;
+}
 #b1 span{
 	color:#7d7885;
 	font-size: 11px;	
@@ -633,9 +683,13 @@
 	font-size: 11px;	
 }
 .bronze{
-	padding-left: 147px;
+	padding-left: 163px;
     	font-size: 13px;
     	color: #87939d;
+}
+.bronze:hover{
+	cursor:pointer;
+	color:#6c757d;
 }
 .bronzedata{
 	border: 1px solid #e6e7e9;
@@ -667,8 +721,12 @@
 }
 .tagview{
 	font-size: 13px;
-    	padding-left: 622px;
+    	float: right;
 	color: #87939d;
+}
+.tagview:hover{
+	cursor:pointer;
+	color:#6c757d;
 }
 .tagtable{
 	border-top: 1px solid #e6e7e9;
@@ -692,7 +750,9 @@
     	font-size: 12px;
 	height: 26px;
 }
-
+.tagtable button:hover{
+	background:#c1e1ec;
+}
 #dot{
     	color: #ffcc01;
 	font-size: 13px;   
@@ -732,6 +792,15 @@
 	border: 1px solid #7d7885;
 	padding: 5px;
 }
+.post button:hover{
+	cursor:pointer;
+}
+.post #r2:hover{
+	background-color:#e8f4f8;
+}
+.post #s:hover{
+	background-color:#e8f4f8;
+}
 .post #r1{
 	background: #e3e6e8;	
 	border-radius: 4px 0 0 4px;
@@ -745,6 +814,7 @@
 }
 .postbutn1{
 	display: inline-flex;
+	
 }
 .postbutn2{
 	display: inline-flex;
@@ -784,32 +854,47 @@
     	font-size: 12px;
 	margin: 7px 0px 12px 6px;
 }
+.posttable button:hover{
+	cursor:text;
+}
 #question{
 	font-size: 15px;
-    	color: #7786d4;
+    	color: #178cda;
 	padding-left: 9px;
 	padding-bottom: 4px;
+	
 }
 #questiondate{
 	color: #7d7885;
 	font-size: 13px;
     	padding-left: 151px;
-	padding-bottom: 4px;
+	padding-bottom: 4px;	
 }
 #different{
 	border: 1px solid #e6e7e9;
 	background: transparent;
     	color: #000000;
 }
-	
-
-
-.meta-container{
-	padding-left: 293.5px;
-    	padding-top: 19px;
-	display: block;
+#different:hover{
+	cursor:text;
 }
+#questions{
+	font-size: 15px;
+    	color: #178cda;
+	padding-left: 9px;
+	padding-bottom: 4px;
+	width:686px;
+}
+
+#question:hover,#questions:hover{	
+	color:#2dc7e3;
+	cursor:pointer;
+}
+
+
 .metapost{
+	padding-left: 293.5px;
+    	padding-top: 17px;
 	display: inline-block;
 }
 .meta span{
@@ -819,13 +904,14 @@
 .meta{
 	display:flex;
 	float: right;
-	padding: 10px 16px 0px 0px;
+	margin-top: 8px;
+	margin-right: 17px;	
 }
 .metatitle{
 	display: inline-block;
 	font-size: 21px;
 }
-.posttable{
+.metatable{
 	border-top: 1px solid #e6e7e9;
 	border-left: 1px solid #e6e7e9;
 	border-right: 1px solid #e6e7e9;
@@ -861,20 +947,19 @@
 
 .netview{
 	font-size: 13px;
-	color: #7d7885;
-	padding-left: 642px;
-	float: right;
-    	padding-top: 8px;
+    	float: right;
+	color: #87939d;
+	margin-top: 8px;
+	padding-right: 15px;
 }
-.net-container{
-	padding-left: 293.5px;
-    	padding-top: 19px;
-	display: inline-block;
+.netview:hover{
+	cursor:pointer;
+	color:#6c757d;
 }
 #network{
 	height:21px;
 }
-.networktitle{
+.nettitle{
 	display: inline-block;
 	font-size: 21px;
 }
@@ -906,4 +991,85 @@
 }
 .metapost span{
 	display:inline-flex;
+}
+.net{
+	padding-left: 293.5px;
+    	padding-top: 17px;
+	display: inline-block;
+}
+#some{
+	color:white;
+}
+
+
+
+				/*footer*/
+
+
+.footer img{
+	width: 50px;
+	padding-top: 17px;
+}
+.foot_container{
+	Background-color: #242526;
+	display: flex;
+	height: 322px;
+
+}
+.footer{
+	display: flex;	
+}
+.foot-column{
+	display: inline-block;
+	padding-top: 31px;
+	margin-left: 25px;
+}
+.foot-column2{
+	display: inline-block;
+	padding-top: 31px;
+	margin-left: 100px;
+}
+.foot-column #head,.foot-column2 #head{
+	font-size: 13px;
+	font-weight: bold;
+	color:#babfc4;
+	padding-bottom: 16px;
+}
+.foot-column #head,.foot-column2 #head{
+	cursor:pointer;
+}
+.foot-column #subhead,.foot-column2 #subhead{
+	font-size: 13px;
+	color: #767e85;
+	padding-bottom: 7px;
+}
+.foot-column #subhead:hover,.foot-column2 #subhead:hover{
+	cursor:pointer;
+	color:  #babfc4;
+}
+.foot-column2 #subheads{
+	color:#242526;
+}
+.foot-column3{
+	display: inline-block;
+	padding-top: 31px;
+	padding-left: 90px;
+	font-size:11px;
+}
+.foot-column3 a{
+	text-decoration:none;
+	color:#94999d;	
+	padding-left: 9px;
+}
+.license{
+	color:#94999d;
+	font-size:11px;
+	padding-top: 209px;
+	padding-left:9.5px
+}
+.foot-column3 a:hover{
+	color:  #babfc4;
+}
+.footer li{
+	list-style-type:none;
 }
